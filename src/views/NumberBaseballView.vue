@@ -1,7 +1,10 @@
+<script setup>
+import NumberBaseball from '@/components/NumberBaseball.vue'
+</script>
+
 <template>
-  <div class="NumberBaseball">
-    <h1>NumberBaseball</h1>
-  </div>
+  <!-- <div class="NumberBaseball"></div> -->
+  <NumberBaseball />
 </template>
 
 <style>
