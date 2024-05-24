@@ -1,10 +1,11 @@
 <script setup>
 import NumberBaseball from '@/components/NumberBaseball.vue'
+import MyModal from '@/components/MyModal.vue'
 </script>
 
 <template>
-  <!-- <div class="NumberBaseball"></div> -->
   <NumberBaseball />
+  <MyModal />
 </template>
 
 <style>

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NumberBaseballView from '../views/NumberBaseballView.vue'
-
+import ModalTestView from '../views/ModalTestView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -14,6 +14,11 @@ const router = createRouter({
       path: '/game',
       name: 'game',
       component: NumberBaseballView
+    },
+    {
+      path: '/modal',
+      name: 'modal',
+      component: ModalTestView
     }
   ]
 })
